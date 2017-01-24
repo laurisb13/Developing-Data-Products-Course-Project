@@ -1,0 +1,17 @@
+---
+title: "Helpfile"
+author: "Laura Sánchez Burgos"
+date: "Tuesday, January 24, 2017"
+output: html_document
+---
+
+Thank you for using the "Tooth Growth Prediction" app, that was developed for the Developing Data Products Course. The app helps predicting the tooth growth of guinea pigs depending of the treatment (orange juice OJ or ascorbic acid VC) and the dose. The data comes from the Tooth Growth data set from [R].
+
+- Source: C. I. Bliss (1952) The Statistics of Bioassay. Academic Press.
+
+- Reference: Crampton, E. W. (1947) The growth of the odontoblast of the incisor teeth as a criterion of vitamin C intake of the guinea pig. The Journal of Nutrition 33(5): 491-504.
+
+How to use the app:
+
+1- Select the dose of OJ or VC you want to give to the guinea pig
+2- See the resulting growth of the tooth (red point) in the right plot

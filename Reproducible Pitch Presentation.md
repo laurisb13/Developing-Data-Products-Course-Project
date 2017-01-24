@@ -1,0 +1,47 @@
+Reproducible Pitch Presentation
+========================================================
+author: Laura Sanchez Burgos
+date: 24/01/2017
+
+The project
+========================================================
+This peer assessed assignment has two parts. 
+- First, you will create a Shiny application and deploy it on Rstudio's servers. 
+- Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+
+The app
+========================================================
+- Thank you for using the "Tooth Growth Prediction" app, that was developed for the Developing Data Products Course. 
+- The app helps predicting the tooth growth of guinea pigs depending of the treatment (orange juice OJ or ascorbic acid VC) and the dose. 
+- The data comes from the Tooth Growth data set from [R].
+
+How to use the app
+========================================================
+- Select the dose of OJ or VC you want to give to the guinea pig
+- See the resulting growth of the tooth (red point) in the right plot
+
+The data
+========================================================
+The response is the length of odontoblasts (cells responsible for tooth growth) in 60 guinea pigs. Each animal received one of three dose levels of vitamin C (0.5, 1, and 2 mg/day) by one of two delivery methods, orange juice or ascorbic acid (a form of vitamin C and coded as VC).
+
+- Source: C. I. Bliss (1952) The Statistics of Bioassay. Academic Press.
+
+- Reference: Crampton, E. W. (1947) The growth of the odontoblast of the incisor teeth as a criterion of vitamin C intake of the guinea pig. The Journal of Nutrition 33(5): 491-504.
+
+Data description
+========================================================
+
+
+```r
+head(ToothGrowth)
+```
+
+```
+   len supp dose
+1  4.2   VC  0.5
+2 11.5   VC  0.5
+3  7.3   VC  0.5
+4  5.8   VC  0.5
+5  6.4   VC  0.5
+6 10.0   VC  0.5
+```
