@@ -1,6 +1,6 @@
 ---
 title: "Helpfile"
-author: "Laura Sánchez Burgos"
+author: "Laura Sanchez Burgos"
 date: "Tuesday, January 24, 2017"
 output: html_document
 ---
